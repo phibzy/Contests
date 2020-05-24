@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Solution	Leetcode/170520/arrangeWords.py	/^class Solution:$/;"	c
+Solution	Leetcode/170520/companySubset.py	/^class Solution:$/;"	c
+Solution	Leetcode/170520/studentsHomework.py	/^class Solution:$/;"	c
+Solution	Leetcode/240520/maxVowels/maxVowels.py	/^class Solution:$/;"	c
+Solution	Leetcode/240520/maxVowels/pseudoPalindrome.py	/^class Solution:$/;"	c
+Solution	Leetcode/240520/maxVowels/wordPrefix.py	/^class Solution:$/;"	c
+a	Leetcode/240520/maxVowels/maxVowels.py	/^a = Solution()$/;"	v
+arrangeWords	Leetcode/170520/arrangeWords.py	/^    def arrangeWords(self, text: str) -> str:$/;"	m	class:Solution
+busyStudent	Leetcode/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
+checkPath	Leetcode/240520/maxVowels/pseudoPalindrome.py	/^    def checkPath(self, valList, diffVals, length):$/;"	m	class:Solution
+isPrefixOfWord	Leetcode/240520/maxVowels/wordPrefix.py	/^    def isPrefixOfWord(self, sentence, searchWord):$/;"	m	class:Solution
+maxVowels	Leetcode/240520/maxVowels/maxVowels.py	/^    def maxVowels(self, s, k):$/;"	m	class:Solution
+peopleIndexes	Leetcode/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
+pseudoPalindromicPaths	Leetcode/240520/maxVowels/pseudoPalindrome.py	/^    def pseudoPalindromicPaths (self, root):$/;"	m	class:Solution
