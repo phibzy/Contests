@@ -4,22 +4,22 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Solution	Leetcode/170520/arrangeWords.py	/^class Solution:$/;"	c
-Solution	Leetcode/170520/companySubset.py	/^class Solution:$/;"	c
-Solution	Leetcode/170520/studentsHomework.py	/^class Solution:$/;"	c
-Solution	Leetcode/240520/maxVowels/maxVowels.py	/^class Solution:$/;"	c
-Solution	Leetcode/240520/pseudoPalindrome.py	/^class Solution:$/;"	c
-Solution	Leetcode/240520/wordPrefix.py	/^class Solution:$/;"	c
-TreeNode	Leetcode/240520/pseudoPalindrome.py	/^class TreeNode:$/;"	c
-__init__	Leetcode/240520/pseudoPalindrome.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
-a	Leetcode/240520/maxVowels/maxVowels.py	/^a = Solution()$/;"	v
-a	Leetcode/240520/pseudoPalindrome.py	/^a = Solution()$/;"	v
-arrangeWords	Leetcode/170520/arrangeWords.py	/^    def arrangeWords(self, text: str) -> str:$/;"	m	class:Solution
-busyStudent	Leetcode/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
-checkPath	Leetcode/240520/pseudoPalindrome.py	/^    def checkPath(self, valList, length):$/;"	m	class:Solution
-isPrefixOfWord	Leetcode/240520/wordPrefix.py	/^    def isPrefixOfWord(self, sentence, searchWord):$/;"	m	class:Solution
-maxVowels	Leetcode/240520/maxVowels/maxVowels.py	/^    def maxVowels(self, s, k):$/;"	m	class:Solution
-peopleIndexes	Leetcode/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
-printList	Leetcode/240520/pseudoPalindrome.py	/^def printList(s):$/;"	f
-printStack	Leetcode/240520/pseudoPalindrome.py	/^def printStack(s):$/;"	f
-pseudoPalindromicPaths	Leetcode/240520/pseudoPalindrome.py	/^    def pseudoPalindromicPaths (self, root):$/;"	m	class:Solution
+Solution	Leetcode/May20/170520/arrangeWords.py	/^class Solution:$/;"	c
+Solution	Leetcode/May20/170520/companySubset.py	/^class Solution:$/;"	c
+Solution	Leetcode/May20/170520/studentsHomework.py	/^class Solution:$/;"	c
+Solution	Leetcode/May20/240520/maxVowels/maxVowels.py	/^class Solution:$/;"	c
+Solution	Leetcode/May20/240520/pseudoPalindrome.py	/^class Solution:$/;"	c
+Solution	Leetcode/May20/240520/wordPrefix.py	/^class Solution:$/;"	c
+TreeNode	Leetcode/May20/240520/pseudoPalindrome.py	/^class TreeNode:$/;"	c
+__init__	Leetcode/May20/240520/pseudoPalindrome.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+a	Leetcode/May20/240520/maxVowels/maxVowels.py	/^a = Solution()$/;"	v
+a	Leetcode/May20/240520/pseudoPalindrome.py	/^a = Solution()$/;"	v
+arrangeWords	Leetcode/May20/170520/arrangeWords.py	/^    def arrangeWords(self, text: str) -> str:$/;"	m	class:Solution
+busyStudent	Leetcode/May20/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
+checkPath	Leetcode/May20/240520/pseudoPalindrome.py	/^    def checkPath(self, valList, length):$/;"	m	class:Solution
+isPrefixOfWord	Leetcode/May20/240520/wordPrefix.py	/^    def isPrefixOfWord(self, sentence, searchWord):$/;"	m	class:Solution
+maxVowels	Leetcode/May20/240520/maxVowels/maxVowels.py	/^    def maxVowels(self, s, k):$/;"	m	class:Solution
+peopleIndexes	Leetcode/May20/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
+printList	Leetcode/May20/240520/pseudoPalindrome.py	/^def printList(s):$/;"	f
+printStack	Leetcode/May20/240520/pseudoPalindrome.py	/^def printStack(s):$/;"	f
+pseudoPalindromicPaths	Leetcode/May20/240520/pseudoPalindrome.py	/^    def pseudoPalindromicPaths (self, root):$/;"	m	class:Solution

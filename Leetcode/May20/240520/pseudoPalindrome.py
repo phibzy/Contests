@@ -23,7 +23,7 @@ class Solution:
         
         # iterative DFS solution with stack
         s = list()
-        s.append(root, valList)
+        s.append(root)
 
         printStack(s)
 
