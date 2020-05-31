@@ -24,7 +24,7 @@ class Solution:
             for neighbour, flag in graph[node]:
                 if (not connected[neighbour]) and flag == True:
                     result += 1
-                    connected[neighbour] = True
+                connected[neighbour] = True
                 
                 q.append(neighbour)
 
@@ -34,7 +34,8 @@ class Solution:
 
 
 a = Solution()
-print(a.minReorder(6, [[0,1],[1,3],[2,3],[4,0],[4,5]]))
-
+print(a.minReorder(10,
+[[0,1],[2,1],[3,2],[0,4],[5,1],[2,6],[5,7],[3,8],[8,9]])
+)
 
         
