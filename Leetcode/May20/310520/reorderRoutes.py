@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 
 class Solution:
+
+    # Pretty cool solution
+    # Make graph bidirectional but weighted
+    # Assign weight of 0 to paths that don't need changing, weight of 1 to ones that do
+    # Do BFS, add up the total weights and return it
+
     def minReorder(self, n, connections):
         # Step 1 - Create graph with adj list
         graph = [list() for _ in range(n)]
