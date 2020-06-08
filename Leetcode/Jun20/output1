@@ -1,0 +1,86 @@
+DEBUG - ----------Visit call----------
+DEBUG - currentPage is leetcode.com
+DEBUG - bLen is 0, bHist is []
+DEBUG - fLen is 0, fHist is []
+DEBUG - --------End visit call--------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - ----------Visit call----------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - --------End visit call--------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - ----------Visit call----------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - --------End visit call--------
+DEBUG - currentPage is youtube.com
+DEBUG - bLen is 3, bHist is ['leetcode.com', 'google.com', 'facebook.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - ----------Back call-----------
+DEBUG - currentPage is youtube.com
+DEBUG - bLen is 3, bHist is ['leetcode.com', 'google.com', 'facebook.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - Equal to 1 case
+DEBUG - --------End back call---------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 1, fHist is ['youtube.com']
+DEBUG - retVal is facebook.com
+DEBUG - ----------Back call-----------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 1, fHist is ['youtube.com']
+DEBUG - Equal to 1 case
+DEBUG - --------End back call---------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 2, fHist is ['youtube.com', 'facebook.com']
+DEBUG - retVal is google.com
+DEBUG - ---------Forward call---------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 2, fHist is ['youtube.com', 'facebook.com']
+DEBUG - Equal to 1 case
+DEBUG - -----End of Forward call------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 1, fHist is ['youtube.com']
+DEBUG - retVal is facebook.com
+DEBUG - ----------Visit call----------
+DEBUG - currentPage is facebook.com
+DEBUG - bLen is 2, bHist is ['leetcode.com', 'google.com']
+DEBUG - fLen is 1, fHist is ['youtube.com']
+DEBUG - --------End visit call--------
+DEBUG - currentPage is linkedin.com
+DEBUG - bLen is 3, bHist is ['leetcode.com', 'google.com', 'facebook.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - ---------Forward call---------
+DEBUG - currentPage is linkedin.com
+DEBUG - bLen is 3, bHist is ['leetcode.com', 'google.com', 'facebook.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - ----------Back call-----------
+DEBUG - currentPage is linkedin.com
+DEBUG - bLen is 3, bHist is ['leetcode.com', 'google.com', 'facebook.com']
+DEBUG - fLen is 0, fHist is []
+DEBUG - Steps normal case
+DEBUG - --------End back call---------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 2, fHist is ['linkedin.com', 'facebook.com']
+DEBUG - retVal is google.com
+DEBUG - ----------Back call-----------
+DEBUG - currentPage is google.com
+DEBUG - bLen is 1, bHist is ['leetcode.com']
+DEBUG - fLen is 2, fHist is ['linkedin.com', 'facebook.com']
+DEBUG - Steps were greater
+DEBUG - --------End back call---------
+DEBUG - currentPage is leetcode.com
+DEBUG - bLen is 1, bHist is []
+DEBUG - fLen is 3, fHist is ['linkedin.com', 'facebook.com', 'google.com']
+DEBUG - retVal is leetcode.com
