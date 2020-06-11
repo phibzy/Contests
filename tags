@@ -15,11 +15,8 @@ Solution	Leetcode/May20/240520/pseudoPalindrome.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/240520/wordPrefix.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/310520/maximumCakeArea.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/310520/reorderRoutes.py	/^class Solution:$/;"	c
-TreeNode	Leetcode/May20/240520/pseudoPalindrome.py	/^class TreeNode:$/;"	c
 __init__	Leetcode/Jun20/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
-__init__	Leetcode/May20/240520/pseudoPalindrome.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 a	Leetcode/May20/240520/maxVowels/maxVowels.py	/^a = Solution()$/;"	v
-a	Leetcode/May20/240520/pseudoPalindrome.py	/^a = Solution()$/;"	v
 a	Leetcode/May20/310520/maximumCakeArea.py	/^a = Solution()$/;"	v
 a	Leetcode/May20/310520/reorderRoutes.py	/^a = Solution()$/;"	v
 aList	Leetcode/Jun20/browserHistory.py	/^aList = [["icpbj.com"],[1],[10],["xbepk.com"],[8],["kls.com"],["dlkwxpf.com"],["pnep.com"],[9],["rmis.com"],["bxf.com"],["dz.com"],[2],["acuqsax.com"],["dcvo.com"],["ijbg.com"],["nlott.com"],[7],["dd.com"],["vssnq.com"],["teur.com"],["pn.com"],["szi.com"],["brhldg.com"],["yulyoqv.com"],[4],[10],[8],[5],["av.com"],[3],["okr.com"],["meli.com"]]$/;"	v
@@ -31,7 +28,7 @@ biggestInterval	Leetcode/May20/310520/maximumCakeArea.py	/^    def biggestInterv
 busyStudent	Leetcode/May20/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
 c	Leetcode/Jun20/browserHistory.py	/^c = globals()['BrowserHistory'](aList[0][0])$/;"	v
 cList	Leetcode/Jun20/browserHistory.py	/^cList = ["BrowserHistory","back","back","visit","forward","visit","visit","visit","back","visit","visit","visit","back","visit","visit","visit","visit","back","visit","visit","visit","visit","visit","visit","visit","back","forward","back","forward","visit","back","visit","visit"]$/;"	v
-checkPath	Leetcode/May20/240520/pseudoPalindrome.py	/^    def checkPath(self, valList, length):$/;"	m	class:Solution
+checkPath	Leetcode/May20/240520/pseudoPalindrome.py	/^    def checkPath(self, digits):$/;"	m	class:Solution
 debugPrint	Leetcode/Jun20/browserHistory.py	/^    def debugPrint(self):$/;"	m	class:BrowserHistory
 forward	Leetcode/Jun20/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 func	Leetcode/Jun20/browserHistory.py	/^    func = getattr(c, cList[i])$/;"	v
@@ -41,8 +38,7 @@ maxArea	Leetcode/May20/310520/maximumCakeArea.py	/^    def maxArea(self, h, w, h
 maxVowels	Leetcode/May20/240520/maxVowels/maxVowels.py	/^    def maxVowels(self, s, k):$/;"	m	class:Solution
 minReorder	Leetcode/May20/310520/reorderRoutes.py	/^    def minReorder(self, n, connections):$/;"	m	class:Solution
 peopleIndexes	Leetcode/May20/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
-printList	Leetcode/May20/240520/pseudoPalindrome.py	/^def printList(s):$/;"	f
-printStack	Leetcode/May20/240520/pseudoPalindrome.py	/^def printStack(s):$/;"	f
 pseudoPalindromicPaths	Leetcode/May20/240520/pseudoPalindrome.py	/^    def pseudoPalindromicPaths (self, root):$/;"	m	class:Solution
+rPalPath	Leetcode/May20/240520/pseudoPalindrome.py	/^    def rPalPath(self, node, length, digits):$/;"	m	class:Solution
 shuffle	Leetcode/Jun20/shuffleArray.py	/^    def shuffle(self, nums, n):$/;"	m	class:Solution
 visit	Leetcode/Jun20/browserHistory.py	/^    def visit(self, url):$/;"	m	class:BrowserHistory
