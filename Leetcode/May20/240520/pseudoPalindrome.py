@@ -16,6 +16,15 @@ logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
 # Time Complexity:  O(N + W) - Where N is number of nodes and W is max width of the tree
                               # You have to visit N nodes regardless, but W comparisons are made depending on how many root->leaf paths there are
                               # If perfectly imbalanced W then only one path, perfectly balanced then many paths  
+
+# Genius solution read on leetcode: Use digits array as bits. Whenever you add one to any digit occurence you flip bit
+# Excluding 0 index, there will be at most one index with a 1 bit if it's a palindrome
+
+# Other solution that guarantees O(N) time
+# Use set instead of array. When you see new digit as your recurse, add to set. If it's already in set, delete it from set
+# At leaf: If set length <= 1 it's a palindrome, else it's not a palindrome
+
+
 class Solution:
     def pseudoPalindromicPaths (self, root):
         if not root: return 0
