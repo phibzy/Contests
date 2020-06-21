@@ -10,6 +10,8 @@ Solution	Leetcode/Jun20/070620/kStrongestVals.py	/^class Solution:$/;"	c
 Solution	Leetcode/Jun20/070620/shuffleArray.py	/^class Solution:$/;"	c
 Solution	Leetcode/Jun20/140620/leastUniqueIntsAfterK.py	/^class Solution:$/;"	c
 Solution	Leetcode/Jun20/140620/runningSum.py	/^class Solution:$/;"	c
+Solution	Leetcode/Jun20/210620/folderNames.py	/^class Solution:$/;"	c
+Solution	Leetcode/Jun20/210620/xorOperation.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/170520/arrangeWords.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/170520/companySubset.py	/^class Solution:$/;"	c
 Solution	Leetcode/May20/170520/studentsHomework.py	/^class Solution:$/;"	c
@@ -21,6 +23,7 @@ Solution	Leetcode/May20/310520/reorderRoutes.py	/^class Solution:$/;"	c
 TreeAncestor	Leetcode/Jun20/140620/kAncestorTreeNode.py	/^class TreeAncestor:$/;"	c
 __init__	Leetcode/Jun20/070620/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Leetcode/Jun20/140620/kAncestorTreeNode.py	/^    def __init__(self, n: int, parent: List[int]):$/;"	m	class:TreeAncestor
+a	Leetcode/Jun20/210620/folderNames.py	/^a = Solution()$/;"	v
 a	Leetcode/May20/240520/maxVowels/maxVowels.py	/^a = Solution()$/;"	v
 a	Leetcode/May20/310520/maximumCakeArea.py	/^a = Solution()$/;"	v
 a	Leetcode/May20/310520/reorderRoutes.py	/^a = Solution()$/;"	v
@@ -38,6 +41,7 @@ debugPrint	Leetcode/Jun20/070620/browserHistory.py	/^    def debugPrint(self):$/
 findLeastNumOfUniqueInts	Leetcode/Jun20/140620/leastUniqueIntsAfterK.py	/^    def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:$/;"	m	class:Solution
 forward	Leetcode/Jun20/070620/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 func	Leetcode/Jun20/070620/browserHistory.py	/^    func = getattr(c, cList[i])$/;"	v
+getFolderNames	Leetcode/Jun20/210620/folderNames.py	/^    def getFolderNames(self, names):$/;"	m	class:Solution
 getKthAncestor	Leetcode/Jun20/140620/kAncestorTreeNode.py	/^    def getKthAncestor(self, node: int, k: int) -> int:$/;"	m	class:TreeAncestor
 getStrongest	Leetcode/Jun20/070620/kStrongestVals.py	/^    def getStrongest(self, arr, k):$/;"	m	class:Solution
 isPrefixOfWord	Leetcode/May20/240520/wordPrefix.py	/^    def isPrefixOfWord(self, sentence, searchWord):$/;"	m	class:Solution
@@ -50,3 +54,4 @@ rPalPath	Leetcode/May20/240520/pseudoPalindrome.py	/^    def rPalPath(self, node
 runningSum	Leetcode/Jun20/140620/runningSum.py	/^    def runningSum(self, nums: List[int]) -> List[int]:$/;"	m	class:Solution
 shuffle	Leetcode/Jun20/070620/shuffleArray.py	/^    def shuffle(self, nums, n):$/;"	m	class:Solution
 visit	Leetcode/Jun20/070620/browserHistory.py	/^    def visit(self, url):$/;"	m	class:BrowserHistory
+xorOperation	Leetcode/Jun20/210620/xorOperation.py	/^    def xorOperation(self, n: int, start: int) -> int:$/;"	m	class:Solution
