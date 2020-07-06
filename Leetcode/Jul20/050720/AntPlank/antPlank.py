@@ -35,16 +35,35 @@ class Solution:
         Don't keep track of who's who
 
         """
-        if not left:
-            retVal = right[-1]
+        # Space complexity for both solutions is constant        
         
-        if not right:
-            retVal = n - left[0]
+        # First solution: O(NlogN) since I use sort function
+        #left.sort()
+        #right.sort()
+        
+        #if not right:
+        #    retVal = left[-1]
+        
+        #if not left:
+        #    retVal = n - right[0]
             
-        if right and left:
-            retVal = max(n - left[0], right[-1])
+        #if right and left:
+        #    retVal = max(n - right[0], left[-1])
             
-        return retVal       
+        #return retVal
+    
+        # Second Solution: O(N), since min/max functions are O(N)
+        #if not left:
+        #    return n - min(right)
+        
+        #if not right:
+        #    return max(left)
+        
+        #return max(max(left), n - min(right))
+        
+        
+        # One liner because you can
+        return max(max(left, default=0), n - min(right, default=n))
 
 
 
