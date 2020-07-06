@@ -9,13 +9,13 @@
 
 class Solution:
     def getLastMoment(self, n, left, right):
-        realLeft = [0]*(n+1)
-        for i in left:
-            realLeft[i] = 1
+        # realLeft = [0]*(n+1)
+        # for i in left:
+            # realLeft[i] = 1
 
-        realRight = [0]*(n+1)
-        for i in right:
-            realRight[i] = 1
+        # realRight = [0]*(n+1)
+        # for i in right:
+            # realRight[i] = 1
 
         """
         Base case: left array is at position n, delete
@@ -30,13 +30,21 @@ class Solution:
         """
 
 
-
         """
         The ants literally walk through each other
         Don't keep track of who's who
 
         """
+        if not left:
+            retVal = right[-1]
         
+        if not right:
+            retVal = n - left[0]
+            
+        if right and left:
+            retVal = max(n - left[0], right[-1])
+            
+        return retVal       
 
 
 
