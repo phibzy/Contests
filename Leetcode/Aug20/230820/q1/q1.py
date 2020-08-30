@@ -16,8 +16,8 @@ class Solution:
         for i in range(len(rounds) - 1):
             if rounds[i+1] < rounds[i]: sign = -1
             print(f"i is {i}, rounds[i] + 1 is {rounds[i] + 1}, rounds[i+1] is {rounds[i+1]}")
-            for j in range(rounds[i] + 1, rounds[i+1] + 1, sign):
-                print(j);
+            for j in range(rounds[i] + 1, rounds[i+1] + sign, sign):
+                print(j)
                 sectors[j] += 1
             sign = 1
 
