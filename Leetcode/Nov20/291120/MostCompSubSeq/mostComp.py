@@ -24,64 +24,43 @@ class Solution:
         # there's no competitors
         if k == 0: return nums
 
-        location = dict()
 
-        for i, v in enumerate(nums):
-            location.setdefault(v, list())
-            location[v].append(i)
-
-        # sort list, then find smallest num
-        sortedNums = sorted(nums)
+        # Brute force-y: Find min element and it's index with enough space at end
+        #                Add to output, update list, repeat
 
         output = list()
 
-        logging.debug(f"nums: {nums}")
-        logging.debug(f"sortedNums: {sortedNums}")
-        logging.debug("".rjust(20, "#"))
-
-        modifier = 0
-
         while k > 0 and k < len(nums):
-            # keep checking is <= endCheck
-            endCheck = len(nums) - k
-            found = False
-
+            minVal, index = float('inf'), 0
             i = 0
-            logging.debug(f"sortedNums: {sortedNums}")
-            logging.debug(f"location[sortedNums[0]]: {location[sortedNums[0]]}")
-            while i < len(location[sortedNums[0]]):
-                nextLoc = location[sortedNums[0]][i] - modifier
+            endPost = len(nums) - k
 
-                logging.debug(f"smallest: {sortedNums[0]}, nextLoc: {nextLoc}")
-                logging.debug(f"i: {i}, endCheck: {endCheck}")
+            while i <= endPost:
+                
+                if nums[i] < minVal:
+                    minVal = nums[i]
+                    index = i
 
-                del location[sortedNums[0]][i]
+                i += 1
 
-                if  nextLoc <= endCheck:
-                    output.append(sortedNums[0])
-                    
-                    # Don't care about anything before
-                    lenDiff = len(nums) - len(nums[nextLoc+1:])
-                    nums = nums[nextLoc+1:]
-                    sortedNums = sorted(nums)
-                    k -= 1
-                    found = True
-                    modifier += lenDiff
-                    break
-            
-            if not found: del sortedNums[0]
-
-            logging.debug(f"k: {k}")
-            logging.debug(f"nums: {nums}")
-            logging.debug(f"sortedNums: {sortedNums}")
-            logging.debug(f"output: {output}")
-            logging.debug("".rjust(20, "#"))
-            logging.debug("".rjust(20, "#"))
+            # Once found, trim list, update output
+            output.append(minVal)
+            nums = nums[index+1:]
+            k -= 1
 
         if k != 0: output += nums
 
         return output
 
-a = Solution()
 
-a.mostCompetitive([2,4,3,3,5,4,9,6],4)
+
+
+
+
+
+
+
+
+
+
+
