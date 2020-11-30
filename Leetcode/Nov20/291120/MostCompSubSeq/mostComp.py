@@ -13,53 +13,45 @@ logging.basicConfig(level=logging.DEBUG, format="%(msg)s")
 
 class Solution:
     def mostCompetitive(self, nums, k):
+        # if k is same length as input, then we don't need to do anything
+        if k == len(nums): return nums 
 
-        # Find lowest number that not in last (len - K) elements
-        # and it's index, then rest of returned array is sorted
-        # elements after it
+        """
+        Algo:
 
-        # Repeat for remaining list
+        We use a stack to keep track of recent minimum elements
 
-        # if k==0, the substring is length of list, meaning
-        # there's no competitors
-        if k == 0: return nums
+        We do this because order needs to be preserved first and foremost,
+        but also because we want to place smallest element we can into
+        our output stack while making sure that there will be k elements
+        in our stack at the end.
 
+        With this in mind, as long as the size of our stack + remaining elements > k,
+        we can pop our stack and replace it with a smaller element
 
-        # Brute force-y: Find min element and it's index with enough space at end
-        #                Add to output, update list, repeat
+        TC: O(N) - we do one pass of nums
+        SC: O(K) - we create a stack with at most k elements
 
-        output = list()
+        """
 
-        while k > 0 and k < len(nums):
-            minVal, index = float('inf'), 0
-            i = 0
-            endPost = len(nums) - k
+        # stack to keep track of sequence
+        s = list()
 
-            while i <= endPost:
-                
-                if nums[i] < minVal:
-                    minVal = nums[i]
-                    index = i
+        for i,v in enumerate(nums):
+            
+            # While we have a stack, and there's a smaller number than the top of it,
+            # we can pop the stack provided there's enough elements left in the original
+            # list to ensure we end up with k elements at the end of the day
+            while s and s[-1] > v and len(s) + len(nums) - i > k:
+                s.pop()
 
-                i += 1
+            # If the stack already has k elements and the next v is greater
+            # than the top, we shouldn't add it
+            # Otherwise we end up with a stack that will be larger than k
+            if len(s) < k:
+                s.append(v)
 
-            # Once found, trim list, update output
-            output.append(minVal)
-            nums = nums[index+1:]
-            k -= 1
-
-        if k != 0: output += nums
-
-        return output
-
-
-
-
-
-
-
-
-
+        return s
 
 
 
